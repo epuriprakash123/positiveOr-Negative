@@ -1,5 +1,7 @@
 N=int(input())
-if(N>=0):
+if(N>0):
     print("Positive")
-else:
+elif(N<0):
     print("Negative")
+else:
+    print("Zero")
